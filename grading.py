@@ -28,23 +28,25 @@ exam_two = int(input("Input exam grade two: "))
 
 exam_three = int(input("Input exam grade three: "))
 
-grades = [exam_one, exam_two, exam_three]
+# (above) exams are defined as variables where the grade is typed by the user as an integer grade.
+
+grades = [exam_one, exam_two, exam_three] #defines grades as a culmination of all three exam scores
 sum = 0
 for grade in grades:
-  sum = sum + grade
+  sum = sum + grade 
 
-avg = sum / len(grades)
+avg = sum / len(grades) #calculates grade average
 
 if avg >= 90:
-    letter_grade = "A"
-elif avg >= 80 and avg <= 89:
-    letter_grade = "B"
+    letter_grade = "A" #if grade falls between these parameters, it recieves an A.
+elif avg >= 80 and avg <= 89: 
+    letter_grade = "B" #if grade falls between these parameters, it recieves a B.
 elif avg >= 70 and avg <= 79:
-    letter_grade = "C"
+    letter_grade = "C" #if grade falls between these parameters, it recieves a C.
 elif avg >= 60 and avg <= 69:
-    letter_grade = "D"
+    letter_grade = "D" #if grade falls between these parameters, it recieves a D.
 elif avg <= 59:
-    letter_grade = "F"
+    letter_grade = "F" #if grade falls between these parameters, it recieves an F.
 
 for grade in grades:
     print("Exam: " + str(grade))
@@ -57,3 +59,6 @@ if letter_grade == "F":
     print ("Student is failing.")
 else:
     print ("Student is passing.")
+    
+#program prints the exam scores, average of three scores, corresponding letter grade,
+#and result of Pass or Fail of a course.
