@@ -20,7 +20,7 @@ o	#Of Errors:
 o	Error Types (each): Value Error (hours misspelled), Value Error (“wait_time” variable misspelled), Value Error (“time_when_to_start” variable does not exist, should print “time_when_start”)
 
 
-***MODULE 3**
+***MODULE 3***
 List of all Module 3 lab problems with their descriptions (clarifying commentary will be in code files):
 
 Problem 1 – Write a program that prints your name with a greeting message. 
