@@ -7,8 +7,8 @@
 ########################################################################################
 # Noble Bautista = Editor
 
-greeting = input("Hello, possible pirate! What's the password?")
-if greeting == ("Arrr!"):
+greeting = input("Hello, possible pirate! What's the password?") #asks for user input (password)
+if greeting == ("Arrr!"): #only specified password option that will "deny" access
 	print("Go away, pirate.")
 else:
-	print("Greetings, hater of pirates!")
+	print("Greetings, hater of pirates!") #anything typed that is not "Arrr!" will be "accepted" + given this greeting in print statement
