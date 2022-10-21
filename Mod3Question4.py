@@ -6,7 +6,7 @@
 # Prompt the user to enter the radius and print the answer with a nice message
 ###################################################
 
-r = input("Input the radius of the circle : ")
+r = input("Input the radius of the circle : ")  # you can do it at once: r = float(input("Enter a radius"))
 # asks user for input statement (radius of the circle)
 r = float(r) #declares that variable must be a number.
 pi = 3.14 # pi (rounded)
