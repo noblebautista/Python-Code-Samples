@@ -11,9 +11,14 @@
 vacationStart = int(input('What day does your vacation start? (Enter 0 for Sunday, 1 for monday, etc.) '))
 #User's answer is the start day of the vacation.
 vacationStart = float(vacationStart) #declares that variable must be a number.
+#vacation_start = int(input("What day are you leaving? "))
+
+
 vacationLength = int(input('How many days will your vacation be? '))
 #User's answer is the length of the vacation.
 vacationLength = float(vacationLength) #declares that variable must be a number.
+
+#length_stay = int(input("How long will you stay ? "))
 returnDay = (vacationLength + vacationStart) % 7 #algorithm that calculates the number of the day you'll return.
 returnDay = float(returnDay) #declares that variable must be a number.
 print("The number of the day you’ll return: ", returnDay) #prints number of day you will return.
