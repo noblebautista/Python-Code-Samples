@@ -15,7 +15,7 @@ authors = {
     "William Thackeray": "1863",
     "Anthony Trollope": "1882",
     "Gerard Manley Hopkins": "1889"
-}
+} #list of all the authors, with their death years listed as seperate items.
 for author, date in authors.items():
-    print('{}, {}'.format(author, date))
+    print('{}, {}'.format(author, date)) #prints authors names as well as their death dates in the format listed within the print statement.
 
