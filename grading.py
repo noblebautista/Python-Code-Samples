@@ -51,9 +51,10 @@ elif avg <= 59:
 for grade in grades:
     print("Exam: " + str(grade))
 
-    print("Average: " + str(avg))
+#Average and Grade should be printed once. No indentation
+print("Average: " + str(avg))
 
-    print("Grade: " + letter_grade)
+print("Grade: " + letter_grade)
 
 if letter_grade == "F":
     print ("Student is failing.")
