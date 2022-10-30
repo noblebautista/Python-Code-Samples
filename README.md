@@ -1,4 +1,22 @@
 # Python-Code-Samples
+***MODULE 5***
+
+Coding assignments for Module #5's lab assignment. Assignments consisted of testing out for loops, as well as creating turtle designs/drawings. Below are notes to follow along for more clairfication for each file.
+
+-Problem1_Mod5Lab.py
+o	Consider a program that asks the user to enter a number and prints “Hello World” by that number. 
+
+-Problem2_Mod5Lab.py
+o Assume you have a list of numbers 4, 10, 13, 3, 6, 7, 42, 9, 20. Write a loop that prints each of the numbers on a new line.
+
+-Problem3_Mod5Lab.py
+o Consider a program that prints the integers from 1 to 50. If a number is multiples of three, then prints “Divisible by three” instead of printing the number and for the multiples of seven prints “Divisible by seven”. For numbers which are multiples of both three and seven print “Divisible by both”.  
+
+-Problem4_Mod5Lab.py
+o Write a program that asks the user for the number of sides, the length of the side, the color of the line, and the fill color of a regular polygon. The program should draw the polygon and then fill it with the user inputted color. 
+
+-Problem5_Mod5Lab.py
+o Choose one of the following drawings. Then write a program to draw what you choose with the turtle methods provided in Summary of Turtle Methods (Picture chosen: five rings in different colors; International Olympics logo).
 
 ***MODULE 4***
 
