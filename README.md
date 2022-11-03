@@ -1,4 +1,21 @@
 # Python-Code-Samples
+
+***MODULE 6***
+
+Coding assignments for Module #6's lab assignment. Assignments consisted of testing out common Python modules, including Random & Math. Below are notes to follow along for more clairfication for each file.
+
+•	Problem 1 – randomrange.py: Use a for statement and random.randrange to print 10 random integers between 25 and 35. 
+
+•	Problem 2 – randomint.py: Use random.randint to print an odd integer between 0 and 100.
+
+•	Problem 3 – randomday.py: Use random.choice to select a day of the week from a list and print that day. 
+
+•	Problem 4 – pi.py: Calculate an approximation for pi using Leibniz’s formula, which is one of algorithms calculating the mathematical constant pi. Write a program that approximates π  according to the Leibniz’s formula using the following pseudo codes. Then compare the result with the value of math.pi in the math module.
+
+•	Problem 5 – degrees.py:Convert radians to degrees using 2π rad = 360°. Write a program to convert a user input value in radians to the value in degrees. Print this value to compare it to a value computed using the degrees function in the math module for the same input value.
+
+•	Problem 6 – factorial.py: Write a program that uses a for loop to compute the factorial of a user input value. Print the result to compare to be compared with the calculated value using the factorial function in the math module. 
+
 ***MODULE 5***
 
 Coding assignments for Module #5's lab assignment. Assignments consisted of testing out for loops, as well as creating turtle designs/drawings. Below are notes to follow along for more clairfication for each file.
