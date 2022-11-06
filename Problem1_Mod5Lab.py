@@ -4,11 +4,12 @@
 # This program asks the user to enter a number
 # and prints “Hello World” by that number.
 
-print("How many time to Print? enter a number: ")
+#print("How many time to Print? enter a number: ")
 # asks user for number.
-tot = int(input())
+#tot = int(input())
 # declares that user input must be a number.
-
+#reduce to one line of code.
+tot = int(input("How many time to Print? enter a number: "))
 for i in range(tot):
     print("Hello World!")
     # prints "hello world" however many times "tot" is called.
