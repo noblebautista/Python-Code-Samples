@@ -6,9 +6,9 @@
 # instead of printing the number and for the multiples of seven prints “Divisible by seven”.
 # For numbers which are multiples of both three and seven print “Divisible by both”.
 
-for i in range(0,51):  # for loop that prints the integers from 1 to 50
-    print(i)  # prints list of numbers
-
+#for i in range(0,51):  # for loop that prints the integers from 1 to 50
+for i in range(1, 51):
+    #print(i)  # prints list of numbers
     if (i % 3 == 0 and i % 7 == 0):
         print("Divisible By Both")  # if number is divisible by both 3 & 7, statement prints
         # statement instead of number.
@@ -18,3 +18,6 @@ for i in range(0,51):  # for loop that prints the integers from 1 to 50
     elif (i % 7 == 0):
         print("Divisible by Seven")  # if number is divisible by 7, statements prints
         # statement instead of number.
+    #none of cases, i is printed.
+    else:
+         print(i)
