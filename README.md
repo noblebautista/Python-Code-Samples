@@ -1,5 +1,21 @@
 # Python-Code-Samples
 
+***MODULE 7***
+
+Coding assignments for Module #6's lab assignment. Assignments consisted of testing out creating and using Python functions, many of them being user defined functions that used for loops and imported modules to streamline coding (i.e. math, random, turtle, etc). Below are the file names and descriptions to follow along with for more clarification.
+
+• VolOfSphere.py (Problem 1): Write a function VolOfSphere(r) which returns the volume of a sphere of radius r. Make sure you use the math module in your solution.
+
+• CheckRange.py (Problem 2): Write a Python function CheckRange(number) to check whether a number is in a given range (1, 10). The number should be randomly generated 20 times in the range (1, 15). Print how many times a number is in a given range.
+
+• SumOfFood.py (Problem 3): Write a Python function SumOfFood(foodDict) that sums the price of each food item in a dictionary. Use foodDict = {“Pizza”: 3.50, “Sandwich”: 5.30, “Hamburger”: $9.45, “Spaghetti”: 5.75}
+
+• Unique.py (Problem 4): Write a Python function Unique(lst) that takes a list of numbers and returns a new list with unique elements of the given list. Use lst = [1, 3, 3, 3, 6, 2, 3, 6, 5, 4, 2]. Use the append function to create a new list where elements are unique. The count function should not be used to identify elements that appear more than once in a list.
+
+• Squares.py (Problem 5): Write a Python function Squares(t, sz) using the following chunk of code as a base to produce the image shown. Assume the innermost square is 20 units per side, and each successive square is 20 units bigger per side, than the one inside it. below. Use t as an instance of turtle object and sz as length of each side.
+
+• Flower.py (Problem 6): Write a Python function Flower(t, sz) using the polygon program from the last module. Call the function in a way to create a pattern similar to below. Use t as an instance of turtle object and sz as length of each side.
+
 ***MODULE 6***
 
 Coding assignments for Module #6's lab assignment. Assignments consisted of testing out common Python modules, including Random & Math. Below are notes to follow along for more clairfication for each file.
