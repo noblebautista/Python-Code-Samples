@@ -10,10 +10,16 @@
 import math  # imports math module
 radian = int(input("enter a radian value to convert it into degrees: "))
 # (above) prompts user to enter value for radian
-pi = 3.14159  # value of pi (rounded)
-degree = radian * (180 / pi)  # formula for conversion
+#pi = 3.14159  # value of pi (rounded)
+
+#degree = radian * (180 / pi)  # formula for conversion
+#Use math.pi value
+degree  = radian * (180 /math.pi)
 print("degree = ", degree)  # prints conversion
 #  (below) separate calculation using math's degrees function
 #  (no user input). In this case, value matches user input for
 #  the sake of this comparison.
+
 print(math.degrees(45))
+#degree function applies to the input value.
+print(math.degrees(radian))
