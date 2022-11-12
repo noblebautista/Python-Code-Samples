@@ -7,3 +7,10 @@
 import random # makes sure random is referenced
 r1 = random.randint(0, 101) # defines randint range as variable
 print(r1) # prints random number Awithin defined range
+
+#make the randomly generated number be odd.
+#while True:
+#    num = random.randint(0, 101)
+#    if num % 2 != 0:
+#        break
+#print("Odd number is", num)
