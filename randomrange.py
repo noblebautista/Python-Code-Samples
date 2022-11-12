@@ -7,6 +7,11 @@
 
 import random # makes sure random is referenced
 
-for i in range(25, 35): # range of numbers
-     y = random.randrange(10) # selects 10 numbers randomly
-     print(y) # prints ten random numbers within given range
+#for i in range(25, 35): # range of numbers
+#     y = random.randrange(10) # selects 10 numbers randomly
+#     print(y) # prints ten random numbers within given range
+     
+#generate random numbers ten times
+for i in range(10):
+#generate each number randomly within a range (25,35) inclusive
+     print(random.randrange(25, 35))
