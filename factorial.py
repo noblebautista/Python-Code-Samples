@@ -18,3 +18,6 @@ print("factorial of ", num, " is ", fac)  # prints result from calculation
 #  (no user input). In this case, value matches user input for
 #  the sake of this comparison.
 print(math.factorial(22))
+
+#Compare your result with the value obtaining from the function using same input value.
+print(math.factorial(num))
