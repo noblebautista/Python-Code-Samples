@@ -8,19 +8,34 @@
 
 
 import random # imports random module
-numRange = {'inRange': 0, 'outofRange': 0}
+#numRange = {'inRange': 0, 'outofRange': 0}
 
-def CheckRange():
-    for inRange in range(20): # makes sure it generates 20 results
+def CheckRange(number):
+   # for inRange in range(20): # makes sure it generates 20 results
+   #     n = random.randint(1, 15) # random numbers from said range (1-15)
+   #if 1 <= n <= 10: # if number falls within range (1-10)
+   #   numRange['inRange'] += 1
+   #   print('%d  inRange' % n)  # prints that # is within said range
+   #elif 11 <= n <= 15: # if number falls out of range (11-15)
+   #     numRange['outofRange'] += 1
+   #     print('%d  outofRange' % n) # prints that # is NOT within said range
+   
+    if number in range(1, 10):
+        return  True
+    else:
+        return False
+
+def main():
+    count = 0
+    #generate 20 numbers in main
+    for i in range(20): # makes sure it generates 20 results
         n = random.randint(1, 15) # random numbers from said range (1-15)
-        if 1 <= n <= 10: # if number falls within range (1-10)
-            numRange['inRange'] += 1
-            print('%d  inRange' % n)  # prints that # is within said range
-        elif 11 <= n <= 15: # if number falls out of range (11-15)
-            numRange['outofRange'] += 1
-            print('%d  outofRange' % n) # prints that # is NOT within said range
-CheckRange()
-print('Shows numbers in the range %d times' % numRange['inRange'])
-# (above) prints how many times a randomly generated number fell within the range
-print('Shows numbers out of the range %d times' % numRange['outofRange'])
-# (above) prints how many times a randomly generated number fell out of the range
+        if CheckRange(n):
+            count += 1
+        else:
+            pass  #do nothing
+    print('The randomly generatd numbers are in the range %d times' % count)
+    # (above) prints how many times a randomly generated number fell within the range
+    #print('Shows numbers out of the range %d times' % numRange['outofRange'])
+    # (above) prints how many times a randomly generated number fell out of the range
+main()
