@@ -19,6 +19,7 @@ def main():
     your_turtle.pensize(3)
     wn.bgcolor("white") # changes background color to white
     your_turtle.pencolor("hot pink") # changes turtle color to hot pink
+    #draw 10 hexagons 
     for i in range(1, 10): # for loop creates rotation of 9 polygons
         Flower(your_turtle, 60)
         your_turtle.left(15)
