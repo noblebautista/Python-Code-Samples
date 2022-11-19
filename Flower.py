@@ -19,13 +19,16 @@ def main():
     your_turtle.pensize(3)
     wn.bgcolor("white") # changes background color to white
     your_turtle.pencolor("hot pink") # changes turtle color to hot pink
-    #draw 10 hexagons 
-    for i in range(1, 10): # for loop creates rotation of 9 polygons
+    
+    #draw 10 hexagon
+    for i in range(10): # for loop creates rotation of 9 polygons
         Flower(your_turtle, 60)
-        your_turtle.left(15)
-        your_turtle.fd(13.5)
-        your_turtle.left(25)
-        your_turtle.down()
+        your_turtle.right(36)   
+        
+        #your_turtle.left(15)
+        #your_turtle.fd(13.5)
+        #your_turtle.left(25)
+        #your_turtle.down()
 
 main()  # executes turtle design
 wn.exitonclick()
