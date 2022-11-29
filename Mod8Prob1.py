@@ -7,18 +7,24 @@
 # Once equal, it prints the two numbers as well as the number of times the function called.
 
 import random #imports the random module to use random functions
-
-x = random.randint(0, 20)
-y = random.randint(0, 20)
-#variables defining two random numbers between selected range
-count = 1
-
 def isEqual(x, y): #function to determine when x is equal to y (false if not equal)
     if x == y:
         result = True
     else:
         result = False
     return result
-print(isEqual(x, y)) #prints function
-print("The numbers", x, "and", y, "are found after", count, "repetitions")
+
+def main():
+    count  = 0
+    while True:
+        x = random.randint(1, 20)
+        y = random.randint(1, 20)
+        #variables defining two random numbers between selected range
+        count += 1
+        #print(isEqual(x, y)) #prints function
+        if isEqual(x, y):
+            break
+
+    print("The numbers", x, "and", y, "are found after", count, "repetitions")
 # (above) prints equal values of x and y as well as number of loops
+main()
