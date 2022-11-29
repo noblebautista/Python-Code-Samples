@@ -10,10 +10,18 @@ import calendar #imports calendar module for later use
 
 def Years(year): # Function years calculates/determines if a year is a leap year
     return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+    
 
 yearList = [1940, 1900, 1992, 1978, 2004, 2032, 2022, 2026, 2000, 2018, 1720]
 # (above) list of years to check if they are leap years (True) or not (False)
-print(list(map(Years, yearList))) # prints results from list using the algorithm
+
+#You are supposed to collect only leap years into Leap_years list instead of printing true and false.
+Leap_years = []
+for i in yearList:
+    if Years(i):
+        Leap_years.append(i)
+        
+#print(list(map(Years, yearList))) # prints results from list using the algorithm
 
 # (Below) double checks using calendar if True values from function above are actually leap years
 print(calendar.isleap(1940))
