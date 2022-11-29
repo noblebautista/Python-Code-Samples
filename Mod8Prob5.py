@@ -14,6 +14,8 @@ class character:
         self.weapons = weapons
         self.weaknesses = weaknesses
 
+    '''
+    Why do you need  the following methods for this problem?
     def get_model(self):
         return self.nickname
 
@@ -25,7 +27,7 @@ class character:
 
     def profile(self):
         return self.nickname, self.weapons, self.weaknesses
-
+    '''   
     def checks(self, p):
         print("Checks function")
         task = input("What task will the character perform? Choose: (Write,climb,cook)")
